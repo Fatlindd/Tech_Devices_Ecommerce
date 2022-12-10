@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Link For Our Website-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Tech Devices | All Products</title>
+    <!-- Import Usage of Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/shop.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/button-header-style.css">
+
+    <!-- Favicon For Website -->
+    <link rel="icon" type="image/x-icon" href="Image/img/logo.svg">
+</head>
+
+<body>
+    <!-- jQuery JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Calling File of JavaScript-->
+    <script src="script/all_products.js"></script>
+    <section id="header">
+        <a href="index.html"><img src="Image/img/logo.svg" class="logo" alt="" width="50px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">All Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="shop-bag"><a href="cart.html"><i class='bx bx-shopping-bag'><span class="counter">0</span></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x' ></i></a>
+            </ul>
+        </div>
+
+        <!-- To save localstorage of number products in cart -->
+        <script>
+            let iconNumberProduct = localStorage.getItem("carticon") == null? localStorage.setItem("carticon", 0): localStorage.getItem("carticon");
+            $(".counter").text(iconNumberProduct);
+        </script>
+
+        <!-- Show message when add to cart products -->
+        <div id="showMsg" hidden>
+            <div class="alert alert-info" id="setMsg"></div>
+        </div>
+
+        
+        <div id="mobile-view">
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+
+    <section id="header-page">
+        <h2>Thank you for your purchase.</h2>
+        <p>Get discount up to 50%</p>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>All Products</h2>
+        <p>Latest Technology Products</p>
+        <div class="container allProducts">
+            <!-- Here Comes All Of Our Products -->
+            
+            </div>
+            <div class="container">
+                <div class="col-md-12 text-center">
+                    <div class="button mt-3 d-flex justify-content-between">
+                        <button id="showMore" class="btn btn-primary"><span>Show More</span></button>
+                        <button id="showLess" class="btn btn-primary" disabled><span>Show Less</span></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="news" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For News About Our Website</h4> 
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address...">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+             <div class="column">
+                    <img src="Image/img/logo.svg" class="logo" alt="" width="50px">
+                    <h3>Contact</h3>
+                    <p><strong>Address:</strong> Rruga Deshmoret e Ponushecit, Kalabri, Prishtine</p>
+                    <p><strong>Phone:</strong> +38345280820</p>
+                    <p><strong>Hours:</strong> 09:00 - 18:00. From Monday To Sunday</p>
+        
+                    <div class="follow-us">
+                        <h3>Follow Us</h3>
+                        <div class="icon">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-instagram-alt' ></i>
+                            <i class='bx bxl-twitter' ></i>
+                            <i class='bx bxl-youtube' ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3>About</h3>
+                    <a href="#">About us</a>
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="column">
+                    <h3>My Account</h3>
+                    <a href="#">Sign In</a>
+                    <a href="#">View Cart</a>
+                    <a href="#">My Wishlist</a>
+                    <a href="#">Track My Order</a>
+                    <a href="#">Help</a>
+            </div>
+
+            <div class="col-md-4 justify-content-center">
+                <div class="column install">
+                    <h3>Install App</h3>
+                    <p>From App Store or Google Play</p>
+                    <div class="row_img">
+                        <img src="Image/icon/app.jpg" alt="">
+                        <img src="Image/icon/play.jpg" alt="">
+                    </div>
+                    <p>Secured Payment Gateways</p>
+                    <img src="Image/icon/paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;2022 Ecommerce Technology Devices. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Calling File of JavaScript-->
+    <script src="script/script.js"></script>
+
+    <!-- Latest compiled JavaScript For Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

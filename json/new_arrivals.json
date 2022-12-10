@@ -1,0 +1,66 @@
+[
+    {
+      "id": 9,
+      "img": "Image/New Arrival Images/headset.PNG",
+      "name": "Gaming Headset",
+      "description": "Mhx Gaming Headset - Mars Gaming Mhx,",
+      "star": 5,
+      "price": "45"
+    },
+    {
+        "id": 10,
+        "img": "Image/New Arrival Images/laptop-asus.PNG",
+        "name": "Laptop Asus VIVOBOOK",
+        "description": "Laptop Asus VIVOBOOK i5 1035G1, TOUCHSCREEN, 15.6', 8GB RAM",
+        "star": 5,
+        "price": "690"
+    },
+    {
+        "id": 11,
+        "img": "Image/New Arrival Images/iphone-14-Pro-Max.png",
+        "name": "iPhone 14 Pro Max",
+        "description": "Apple iPhone 14 Pro Max, 128GB, (PRODUCT) Gold",
+        "star": 5,
+        "price": "998"
+    },
+    {
+        "id": 12,
+        "img": "Image/New Arrival Images/iphone-13.png",
+        "name": "Iphone 13",
+        "description": "Apple iPhone 13, 128GB, (PRODUCT) Blue",
+        "star": 5,
+        "price": "699"
+    },
+    {
+        "id": 13,
+        "img": "Image/New Arrival Images/tastiera.PNG",
+        "name": "Keyboard",
+        "description": "Esperanza Tirions keyboard (EGK201R), EN, red",
+        "star": 5,
+        "price": "20"
+    },
+    {
+        "id": 14,
+        "img": "Image/New Arrival Images/mac-os.PNG",
+        "name": "MAC Book",
+        "description": "Laptop Apple MacBook Pro 16, Apple M1 Pro, 16.2', 16 GB RAM",
+        "star": 5,
+        "price": "3715"
+    },
+    {
+        "id": 15,
+        "img": "Image/New Arrival Images/shtepiza.png",
+        "name": "Computer Case",
+        "description": "Computer case Game X G500, Core i5-11400F, RTX 3070, 64 GB RAM, HDD 2 TB, SSD 1 TB",
+        "star": 5,
+        "price": "1840"
+    },
+    {
+        "id": 16,
+        "img": "Image/New Arrival Images/logitech.PNG",
+        "name": "Gaming Mouse",
+        "description": "Logitech G402 gaming mouse, black",
+        "star": 5,
+        "price": "60"
+    }
+]

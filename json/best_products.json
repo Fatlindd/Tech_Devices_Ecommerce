@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "img": "Image/img/img1.png",
+      "name": "Gaming PC",
+      "description": "Computer Gaming X G100, Core i5-10400F, 16 GB, RTX",
+      "star": 5,
+      "price": "1050"
+    },
+    {
+        "id": 2,
+        "img": "Image/img/lenovo-llaptop.png",
+        "name": "Laptop Lenovo",
+        "description": "Laptop Lenovo IdeaPad Gaming 3 15ACH6, 15.6', AMD Ryzen 7, 8GB",
+        "star": 5,
+        "price": "985"
+    },
+    {
+        "id": 3,
+        "img": "Image/img/iPad.png",
+        "name": "iPad Pro 2021",
+        "description": "Tablet Apple iPad Pro 2021 (MHNL3FD/A), 12.9', 8GB RAM,",
+        "star": 5,
+        "price": "1985"
+    },
+    {
+        "id": 4,
+        "img": "Image/img/iphone-13-Pro.png",
+        "name": "Iphone 13",
+        "description": "Apple iPhone 13, 128GB, (PRODUCT) RED",
+        "star": 5,
+        "price": "830"
+    },
+    {
+        "id": 5,
+        "img": "Image/img/Dell-Monitor-.png",
+        "name": "Monitor Dell",
+        "description": "Monitor Dell Alienware AW2721D, 27' LED, QHD, white / black",
+        "star": 5,
+        "price": "450"
+    },
+    {
+        "id": 6,
+        "img": "Image/img/ram-memory.png",
+        "name": "Gaming RAM",
+        "description": "Memory RAM G.Skill Trident Z RGB, DDR5, 32 GB, 6400MHz, CL32, black",
+        "star": 5,
+        "price": "520.59"
+    },
+    {
+        "id": 7,
+        "img": "Image/img/celular-xiaomi.png",
+        "name": "Xiaomi Phone",
+        "description": "Celular Xiaomi Redmi Note 10 (33252), 5G, 4/128 GB, Dual SIM",
+        "star": 5,
+        "price": "350"
+    },
+    {
+        "id": 8,
+        "img": "Image/img/kartela-grafike.png",
+        "name": "Graphics Card",
+        "description": "Asrock AMD Radeon RX 6750 XT Phantom Gaming D Graphics Card",
+        "star": 5,
+        "price": "710"
+    }
+]

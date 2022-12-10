@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous">
+    <!-- Bootstrap Link For Our Website-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Tech Devices | Contact</title>
+    <!-- Import Usage of Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link Stylesheets -->
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/profileTeams.css">
+
+    <!-- Favicon For Website -->
+    <link rel="icon" type="image/x-icon" href="Image/img/logo.svg">
+</head>
+
+<body>
+  <!-- CDN for cool alert form fields -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- jQuery JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Calling File of JavaScript-->
+    <script src="script/script.js"></script>
+    <script src="script/all_products.js"></script>
+
+    <section id="header">
+        <a href="index.html"><img src="Image/img/logo.svg" class="logo" alt="" width="50px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">All Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li id="shop-bag"><a href="cart.html"><i class='bx bx-shopping-bag'><span class="counter">0</span></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x' ></i></a>
+            </ul>
+        </div>
+
+        <!-- To save localstorage of number products in cart -->
+        <script>
+          let iconNumberProduct = localStorage.getItem("carticon") == null? localStorage.setItem("carticon", 0): localStorage.getItem("carticon");
+          $(".counter").text(iconNumberProduct);
+      </script>
+
+        <div id="mobile-view">
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+
+    <section id="header-page">
+        <h1>CONTACT US</h1>
+        <p>#forMoreProducts</p>
+    </section> 
+
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <h2>Visit one of our company locations or contact us today.</h2>
+        <span>Contact us for more information.</span>
+        <div>
+          <li>
+            <i class='bx bx-location-plus'></i>
+            <p>Berlin, Deutschland</p>
+          </li>
+          <li>
+            <i class='bx bx-envelope' ></i>
+            <p>tech_devices@gmail.com</p>
+          </li>
+          <li>
+            <i class='bx bxs-phone' ></i>
+            <p>+4971627617264</p>
+          </li>
+          <li>
+            <i class='bx bx-time' ></i>
+            <p>Monday to Saturday: 8.00am to 16.00pm</p>
+          </li>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38849.
+        66037019414!2d13.378955743158867!3d52.513461035098956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+        1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin%2C%20Germany!5e0!3m2!1sen!2s!4v1668159685376!5m2!1sen!2s" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="mb-4 " id="form-details">
+        <div class="section-p1">
+          <h2 class="text-dark text-center pb-3">You can contact us for more information</h2>
+            <form>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" name="firstName" id="name" class="form-control" placeholder="First Name" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" name="lastName" id="lastname" class="form-control" placeholder="Last Name" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="firstName" class="form-label">Email</label>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="lastName" class="form-label">Phone (Optional)</label>
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <label for="firstName" class="form-label">Subject</label>
+                        <input type="text" name="firstName" id="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="lastName" class="form-label">Message</label>
+                        <textarea type="text" name="lastName" id="message" class="form-control" placeholder="Enter a message" required></textarea>
+                    </div>
+                    <div class="col-12 text-end">
+                        <button type="button" id="submit" class="btn btn-primary mt-2">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+          <h2 class="text-center">Our Team</h2>
+          <p class="text-center">#perfectTeam</p>
+    <!-- Profile Of Our Teams -->
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="card mx-2">
+         <div class="upper">
+           <img src="Image/banners_img/Moon.svg" class="img-fluid">  
+         </div>
+
+         <div class="user text-center">
+           <div class="profile">
+             <img src="Image/teams-img/team2.jpeg" class="rounded-circle mx-auto d-block">
+           </div>
+         </div>
+
+         <div class="mt-5 text-center">
+           <h4 class="mt-3">Lena Müller</h4>
+           <span class="text-muted d-block">Germany</span>
+
+           <div class="d-flex justify-content-center align-items-center mt-2 px-4">
+             <div class="stats ">
+                <i class='bx bx-envelope'></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-facebook' ></i>
+                <i class='bx bxl-twitter' ></i>
+             </div>  
+           </div> 
+         </div> 
+        </div>
+
+        <div class="card mx-2">
+         <div class="upper">
+           <img src="Image/banners_img/Moon.svg" class="img-fluid">  
+         </div>
+
+         <div class="user text-center">
+           <div class="profile">
+             <img src="Image/teams-img/team1.jpeg" class="rounded-circle mx-auto d-block">
+           </div>
+         </div>
+
+         <div class="mt-5 text-center">
+           <h4 class="mt-3">Paul Schneider</h4>
+           <span class="text-muted d-block">Germany</span>
+
+           <div class="d-flex justify-content-center align-items-center mt-2 px-4">
+             <div class="stats ">
+                <i class='bx bx-envelope'></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-facebook' ></i>
+                <i class='bx bxl-twitter' ></i>
+             </div>  
+           </div> 
+         </div> 
+        </div>
+
+        <div class="card mx-2">
+            <div class="upper">
+              <img src="Image/banners_img/Moon.svg" class="img-fluid">  
+            </div>
+   
+            <div class="user text-center">
+              <div class="profile">
+                <img src="Image/teams-img/team4.jpeg" class="rounded-circle mx-auto d-block">
+              </div>
+            </div>
+   
+            <div class="mt-5 text-center">
+              <h4 class="mt-3">Benjamin Tims</h4>
+              <span class="text-muted d-block">America</span>
+   
+              <div class="d-flex justify-content-center align-items-center mt-2 px-4">
+                <div class="stats ">
+                   <i class='bx bx-envelope'></i>
+                   <i class='bx bxl-instagram' ></i>
+                   <i class='bx bxl-facebook' ></i>
+                   <i class='bx bxl-twitter' ></i>
+                </div>  
+              </div> 
+            </div> 
+           </div>
+
+        <div class="card mx-2">
+            <div class="upper">
+              <img src="Image/banners_img/Moon.svg" class="img-fluid">  
+            </div>
+   
+            <div class="user text-center">
+              <div class="profile">
+                <img src="Image/teams-img/team3.jpeg" class="rounded-circle mx-auto d-block">
+              </div>
+            </div>
+   
+            <div class="mt-5 text-center">
+              <h4 class="mt-3">Nicol Smith</h4>
+              <span class="text-muted d-block">America</span>
+   
+              <div class="d-flex justify-content-center align-items-center mt-2 px-4">
+                <div class="stats ">
+                   <i class='bx bx-envelope'></i>
+                   <i class='bx bxl-instagram' ></i>
+                   <i class='bx bxl-facebook' ></i>
+                   <i class='bx bxl-twitter' ></i>
+                </div>  
+              </div> 
+            </div> 
+           </div>
+      </div>
+
+ 
+
+      <section id="news" class="section-p1 mt-1">
+        <div class="newstext">
+            <h4>Sign Up For News About Our Website</h4> 
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address...">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+             <div class="column">
+                    <img src="Image/img/logo.svg" class="logo" alt="" width="50px">
+                    <h3>Contact</h3>
+                    <p><strong>Address:</strong> Rruga Deshmoret e Ponushecit, Kalabri, Prishtine</p>
+                    <p><strong>Phone:</strong> +38345280820</p>
+                    <p><strong>Hours:</strong> 09:00 - 18:00. From Monday To Sunday</p>
+        
+                    <div class="follow-us">
+                        <h3>Follow Us</h3>
+                        <div class="icon">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-instagram-alt' ></i>
+                            <i class='bx bxl-twitter' ></i>
+                            <i class='bx bxl-youtube' ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3>About</h3>
+                    <a href="#">About us</a>
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="column">
+                    <h3>My Account</h3>
+                    <a href="#">Sign In</a>
+                    <a href="#">View Cart</a>
+                    <a href="#">My Wishlist</a>
+                    <a href="#">Track My Order</a>
+                    <a href="#">Help</a>
+            </div>
+
+            <div class="col-md-4 justify-content-center">
+                <div class="column install">
+                    <h3>Install App</h3>
+                    <p>From App Store or Google Play</p>
+                    <div class="row_img">
+                        <img src="Image/icon/app.jpg" alt="">
+                        <img src="Image/icon/play.jpg" alt="">
+                    </div>
+                    <p>Secured Payment Gateways</p>
+                    <img src="Image/icon/paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;2022 Ecommerce Technology Devices. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Latest compiled JavaScript For Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/contact.js"></script>
+  </body>
+</html>

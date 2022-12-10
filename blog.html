@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous">
+    <!-- Bootstrap Link For Our Website-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Tech Devices | Blog</title>
+    <!-- Import Usage of Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link Stylesheets -->
+    <link rel="stylesheet" href="style/blog.css">
+    <link rel="stylesheet" href="style/styles.css">
+
+    <!-- Favicon For Website -->
+    <link rel="icon" type="image/x-icon" href="Image/img/logo.svg">
+</head>
+
+<body>
+    
+    <!-- jQuery JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Calling File of JavaScript-->
+    <script src="script/script.js"></script>
+    <script src="script/all_products.js"></script>
+
+    <section id="header">
+        <a href="index.html"><img src="Image/img/logo.svg" class="logo" alt="" width="50px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">All Products</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="shop-bag"><a href="cart.html"><i class='bx bx-shopping-bag'><span class="counter">0</span></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x' ></i></a>
+            </ul>
+        </div>
+
+        <!-- To save localstorage of number products in cart -->
+        <script>
+          let iconNumberProduct = localStorage.getItem("carticon") == null? localStorage.setItem("carticon", 0): localStorage.getItem("carticon");
+          $(".counter").text(iconNumberProduct);
+      </script>
+
+        <div id="mobile-view">
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+
+
+    <div class="slider-container">
+        <div class="left-slide">
+          <div style="background-color: #b99f8a">
+            <h1>Slide up or down to see</h1>
+            <h1>some of our products.</h1>
+            <p>your best choice</p>
+          </div>
+          <div style="background-color: #354f32">
+            <h1>Slide up or down to see</h1>
+            <h1>some of our products.</h1>
+            <p>your best choice</p>
+          </div>
+          <div style="background-color: #657e85">
+            <h1>Slide up or down to see</h1>
+            <h1>some of our products.</h1>
+            <p>your best choice</p>
+          </div>
+          <div style="background-color: #2b2e32">
+            <h1>Slide up or down to see</h1>
+            <h1>some of our products.</h1>
+            <p>your best choice</p>
+          </div>
+          <div style="background-color: #649968">
+            <h1>Slide up or down to see</h1>
+            <h1>some of our products.</h1>
+            <p>your best choice</p>
+          </div>
+          <div style="background-color: #6c7474">
+            <h1>Slide up or down to see</h1>
+            <h1>some of our products.</h1>
+            <p>your best choice</p>
+          </div>
+        </div>
+        <div class="right-slide">
+          <div
+            style=" 
+              background-image: url('https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80');
+            "
+          ></div>
+          <div
+            style="      
+              background-image: url('https://images.unsplash.com/photo-1544652478-6653e09f18a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+            "
+          ></div>
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1420&q=80');
+            "
+          ></div>
+        </div>
+        <div class="action-buttons">
+          <button class="down-button">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+          <button class="up-button">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+
+      <section id="view-details" class="section-p1">
+        <h2 class="text-center my-2">The three best-selling products</h2>
+          <div class="row my-3 border border-dark rounded best_selling">
+            <div class="col-md-2  bg-light">
+                <img src="Image/img/ora.png" alt="" class="w-50 m-2 rounded mx-auto d-block">
+            </div>
+            <div class="col-md-8">
+              <p>
+                Apple watch is one of the products of special interest, of which we have sold more 
+                than 70 such so far, its use is quite attractive and it offers different options of 
+                use, it is worth using and having each of you .
+              </p>
+            </div>
+            <div class="col-md-2 d-flex align-items-center justify-content-center">
+              <button type="button" class="btn btn-primary m-2 view_btn" id="butoni_1">View details</button>
+            </div>
+          </div>
+          
+          <div class="row my-3 border border-dark rounded best_selling">
+            <div class="col-md-2  bg-light">
+                <img src="Image/img/iphone-13-Pro.png" alt="" class="w-50 m-2 rounded mx-auto d-block">
+            </div>
+            <div class="col-md-8">
+              <p>
+                The iPhone 13 Pro is another product that has a lot of customer interest, due to the 
+                excellent performance it offers, the red iPhone 13 Pro is one of the best-selling phones 
+                so far from the collection of phones available. we have We have sold a total of 46 pieces so far.
+              </p>
+            </div>
+            <div class="col-md-2 d-flex align-items-center justify-content-center">
+              <button type="button" class="btn btn-primary m-2 view_btn" id="butoni_2">View details</button>
+            </div>
+          </div>
+  
+          <div class="row my-3 border border-dark rounded best_selling">
+            <div class="col-md-2 bg-light">
+                <img src="Image/img/setDevices.png" alt="" class="w-50 m-2 rounded mx-auto d-block">
+            </div>
+            <div class="col-md-8">
+              <p>
+                Sets of computer equipment such as keyboards, mice and headphones are some of the other 
+                products that we have sold in a good amount. So far we have managed to sell somewhere 
+                around 53 pieces so far, in which products it is worth noting that we have also had 
+                discounts in prices where there has been great interest from customers.
+              </p>
+            </div>
+            <div class="col-md-2 d-flex align-items-center justify-content-center">
+              <button type="button" class="btn btn-primary m-2 view_btn" id="butoni_3">View details</button>
+            </div>
+          </div>
+      </section>
+      
+
+      <section id="news" class="section-p1 mt-2">
+        <div class="newstext">
+            <h4>Sign Up For News About Our Website</h4> 
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address...">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+             <div class="column">
+                    <img src="Image/img/logo.svg" class="logo" alt="" width="50px">
+                    <h3>Contact</h3>
+                    <p><strong>Address:</strong> Rruga Deshmoret e Ponushecit, Kalabri, Prishtine</p>
+                    <p><strong>Phone:</strong> +38345280820</p>
+                    <p><strong>Hours:</strong> 09:00 - 18:00. From Monday To Sunday</p>
+        
+                    <div class="follow-us">
+                        <h3>Follow Us</h3>
+                        <div class="icon">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-instagram-alt' ></i>
+                            <i class='bx bxl-twitter' ></i>
+                            <i class='bx bxl-youtube' ></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3>About</h3>
+                    <a href="#">About us</a>
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="column">
+                    <h3>My Account</h3>
+                    <a href="#">Sign In</a>
+                    <a href="#">View Cart</a>
+                    <a href="#">My Wishlist</a>
+                    <a href="#">Track My Order</a>
+                    <a href="#">Help</a>
+            </div>
+
+            <div class="col-md-4 justify-content-center">
+                <div class="column install">
+                    <h3>Install App</h3>
+                    <p>From App Store or Google Play</p>
+                    <div class="row_img">
+                        <img src="Image/icon/app.jpg" alt="">
+                        <img src="Image/icon/play.jpg" alt="">
+                    </div>
+                    <p>Secured Payment Gateways</p>
+                    <img src="Image/icon/paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy;2022 Ecommerce Technology Devices. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+        <!-- Modal -->
+    <div class="modal fade" id="modalProduct" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-light">
+            <h3 class="modal-title" id="exampleModalLongTitle">Best Product</h3>
+            <button type="button" class="close bg-light" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body showProduct">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger close" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script/blog.js"></script>
+    <!-- Latest compiled JavaScript For Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

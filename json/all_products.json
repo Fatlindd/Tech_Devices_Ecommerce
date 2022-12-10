@@ -1,0 +1,227 @@
+[
+    {
+      "id": 1,
+      "img": "Image/img/img1.png",
+      "name": "Gaming PC",
+      "description": "Computer Gaming X G100, Core i5-10400F, 16 GB, RTX",
+      "star": 5,
+      "price": "1050"
+    },
+    {
+        "id": 2,
+        "img": "Image/img/lenovo-llaptop.png",
+        "name": "Laptop Lenovo",
+        "description": "Laptop Lenovo IdeaPad Gaming 3 15ACH6, 15.6', AMD Ryzen 7, 8GB",
+        "star": 5,
+        "price": "985"
+    },
+    {
+        "id": 3,
+        "img": "Image/img/iPad.png",
+        "name": "iPad Pro 2021",
+        "description": "Tablet Apple iPad Pro 2021 (MHNL3FD/A), 12.9', 8GB RAM,",
+        "star": 5,
+        "price": "1985"
+    },
+    {
+        "id": 4,
+        "img": "Image/img/iphone-13-Pro.png",
+        "name": "Iphone 13",
+        "description": "Apple iPhone 13, 128GB, (PRODUCT) RED",
+        "star": 5,
+        "price": "830"
+    },
+    {
+        "id": 5,
+        "img": "Image/img/Dell-Monitor-.png",
+        "name": "Monitor Dell",
+        "description": "Monitor Dell Alienware AW2721D, 27' LED, QHD, white / black",
+        "star": 5,
+        "price": "450"
+    },
+    {
+        "id": 6,
+        "img": "Image/img/ram-memory.png",
+        "name": "Gaming RAM",
+        "description": "Memory RAM G.Skill Trident Z RGB, DDR5, 32 GB, 6400MHz, CL32, black",
+        "star": 5,
+        "price": "520.59"
+    },
+    {
+        "id": 7,
+        "img": "Image/img/celular-xiaomi.png",
+        "name": "Xiaomi Phone",
+        "description": "Celular Xiaomi Redmi Note 10 (33252), 5G, 4/128 GB, Dual SIM",
+        "star": 5,
+        "price": "350"
+    },
+    {
+        "id": 8,
+        "img": "Image/img/kartela-grafike.png",
+        "name": "Graphics Card",
+        "description": "Asrock AMD Radeon RX 6750 XT Phantom Gaming D Graphics Card",
+        "star": 5,
+        "price": "710"
+    },
+    {
+        "id": 9,
+        "img": "Image/New Arrival Images/headset.PNG",
+        "name": "Gaming Headset",
+        "description": "Mhx Gaming Headset - Mars Gaming Mhx,",
+        "star": 5,
+        "price": "45"
+      },
+      {
+          "id": 10,
+          "img": "Image/New Arrival Images/laptop-asus.PNG",
+          "name": "Laptop Asus VIVOBOOK",
+          "description": "Laptop Asus VIVOBOOK i5 1035G1, TOUCHSCREEN, 15.6', 8GB RAM",
+          "star": 5,
+          "price": "690"
+      },
+      {
+          "id": 11,
+          "img": "Image/New Arrival Images/iphone-14-Pro-Max.png",
+          "name": "iPhone 14 Pro Max",
+          "description": "Apple iPhone 14 Pro Max, 128GB, (PRODUCT) Gold",
+          "star": 5,
+          "price": "998"
+      },
+      {
+          "id": 12,
+          "img": "Image/New Arrival Images/iphone-13.png",
+          "name": "Iphone 13",
+          "description": "Apple iPhone 13, 128GB, (PRODUCT) Blue",
+          "star": 5,
+          "price": "699"
+      },
+      {
+          "id": 13,
+          "img": "Image/New Arrival Images/tastiera.PNG",
+          "name": "Keyboard",
+          "description": "Esperanza Tirions keyboard (EGK201R), EN, red",
+          "star": 5,
+          "price": "20"
+      },
+      {
+          "id": 14,
+          "img": "Image/New Arrival Images/mac-os.PNG",
+          "name": "MAC Book",
+          "description": "Laptop Apple MacBook Pro 16, Apple M1 Pro, 16.2', 16 GB RAM",
+          "star": 5,
+          "price": "3715"
+      },
+      {
+          "id": 15,
+          "img": "Image/New Arrival Images/shtepiza.png",
+          "name": "Computer Case",
+          "description": "Computer case Game X G500, Core i5-11400F, RTX 3070, 64 GB RAM, HDD 2 TB, SSD 1 TB",
+          "star": 5,
+          "price": "1840"
+      },
+      {
+          "id": 16,
+          "img": "Image/New Arrival Images/logitech.PNG",
+          "name": "Gaming Mouse",
+          "description": "Logitech G402 gaming mouse, black",
+          "star": 5,
+          "price": "60"
+      },
+      {
+          "id": 17,
+          "img": "Image/img/usb-pink.png",
+          "name": "USB for PC",
+          "description": "SanDisk Cruzer Blade USB, 64GB, pink",
+          "star": 5,
+          "price": "16"
+      },
+      {
+          "id": 18,
+          "img": "Image/img/tv.png",
+          "name": "TV",
+          "description": "TV Toshiba 50UA2063DG(127cm), 4K UHD, Android TV, black",
+          "star": 5,
+          "price": "450"
+      },
+      {
+          "id": 19,
+          "img": "Image/img/ora.png",
+          "name": "Smarth whatch",
+          "description": "Xiaomi Haylou LS02 Smart Watch, Black",
+          "star": 5,
+          "price": "55"
+      },
+      {
+          "id": 20,
+          "img": "Image/img/samsung.png",
+          "name": "Samsung Galaxy A13",
+          "description": "Samsung Galaxy A13 mobile phone, 4GB RAM, 64GB ROM, black",
+          "star": 5,
+          "price": "199"
+      },
+      {
+          "id": 21,
+          "img": "Image/img/hp-printer.png",
+          "name": "Samsung Galaxy A13",
+          "description": "HP LaserJet Pro MFP M283fdw Printer, 256MB",
+          "star": 5,
+          "price": "1250"
+      },
+      {
+          "id": 22,
+          "img": "Image/img/apple-keyboard.png",
+          "name": "Apple Keyboard",
+          "description": "Apple Magic Keyboard (2021) with Touch ID and Numeric Keypad,",
+          "star": 5,
+          "price": "217"
+      },
+      {
+          "id": 23,
+          "img": "Image/img/setDevices.png",
+          "name": "Set of devices",
+          "description": "Set MS Gaming ELITE C500 4in1, (keyboard + mouse + mousepad + headphones)",
+          "star": 5,
+          "price": "45"
+      },
+      {
+          "id": 24,
+          "img": "Image/img/wifi.png",
+          "name": "WiFi Router",
+          "description": "Tenda AC11 WiFi router, with impressive wave power",
+          "star": 5,
+          "price": "61"
+      },
+      {
+          "id": 25,
+          "img": "Image/img/monitor.png",
+          "name": "Monitor Samsung",
+          "description": "Monitor Samsung C24RG50, 24' LED, Full HD, black",
+          "star": 5,
+          "price": "185"
+      },
+      {
+          "id": 26,
+          "img": "Image/img/tavoline.png",
+          "name": "Gaming Table",
+          "description": "MOMENTUM Ultradesk Gaming Table, black",
+          "star": 5,
+          "price": "280"
+      },
+      {
+          "id": 27,
+          "img": "Image/img/llaptop-lenovo.png",
+          "name": "Laptop Lenovo",
+          "description": "Laptop Lenovo Ideapad 5 14IIL i7-1065G7, 14', 8GB Ram/ 512GB SSD",
+          "star": 5,
+          "price": "700"
+      },
+      {
+          "id": 28,
+          "img": "Image/img/power.png",
+          "name": "Power Supply",
+          "description": "Thermaltake Smart Power Supply (PS-SPR-0500NHSAWE-1)",
+          "star": 5,
+          "price": "83"
+      }
+      
+]
